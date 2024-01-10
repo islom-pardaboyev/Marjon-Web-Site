@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marjon</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- Box Icon -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body class="font-open-sans overflow-x-hidden bg-gray-100">
+    <div class="container mx-auto pb-[44px]">
+        <p class="text-center text-[40px] text-main-black font-bold leading-[130%]">Кто мы такие?</p>
+        <p class="text-center text-[16px] font-normal leading-[130%] text-center text-[#8C849A]">Краткая информация о нас и чем мы занимаемся</p>
+    </div>
+    <section class="container sm:px-[20px] mx-auto w-full bg-white rounded-[20px] px-[128px]">
+        <div class="grid grid-cols-12">
+            <div class="sm:hidden md:inline md:col-span-6 sm:col-span-0">
+                <div class="">
+                    <img class="absolute top-[195px] xl:left-[300px] lg:left-[205px] md:left-[5]" src="./img/h1.png" alt="">
+                    <img class="absolute top-[125px] xl:left-[105px] lg:left-[-5px] md:left-[-155px]" src="./img/h2.png" alt="">
+                    <img class="absolute top-[125px] xl:left-[5px] lg:left-[-155px] md:left-[-295px]" src="./img/h3.png" alt="">
+                </div>
+            </div>
+            <div class="sm:col-span-12  md:col-span-6">
+                <div class="py-[32px]">
+                    <img src="./img/Logo.svg" alt="">
+                    <p>Mногие наши клиенты, возможно и Вы, сталкиваются с проблемой: где купить надёжную и красивую мебель, и при этом не прогадать с ценой?<br><br>
+                        Благодаря исследованиям, проводимым нашей компанией с 2010 года, мы разработали формулу идеального соотношения приемлемых цен и отличного качества продукта.</p>
+                    <a href="#" class="mt-[21px] items-center inline-flex justify-center rounded-[12px] bg-[#E7E5EA] py-[10px] pl-[32px] pr-[24px] gap-[8px]">
+                        <p class="text-main-black text-[16px] font-semibold leading-[20px]">Подробнее</p>
+                        <i class='bx bx-right-arrow-alt w-[24px] h-[24px]'></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="w-full mt-[94px] h-full bg-gradient-to-r from-[#250F4F] to-[#190A35]">
+        <section class="container mx-auto w-full">
+            <div class=" pt-[64px] ">
+                <p class="text-center text-[40px] text-white font-bold leading-[130%]">Кто мы такие?</p>
+                <p class="text-center text-[16px] font-normal leading-[130%] text-center text-white">Краткая информация о нас и чем мы занимаемся</p>
+            </div>
+
+            <div class="flex gap-[20px] mt-[40px] flex-wrap">
+                <div>
+                    <img class="px-[50px] hover:bg-[#FFFFFF33] duration-200 py-[50px] rounded-[20px]" src="./img/uic-logo.svg" alt="">
+                </div>
+                <div>
+                    <img class="px-[50px] hover:bg-[#FFFFFF33] duration-200 py-[50px] rounded-[20px]" src="./img/uic-logo.svg" alt="">
+                </div>
+                <div>
+                    <img class="px-[50px] hover:bg-[#FFFFFF33] duration-200 py-[50px] rounded-[20px]" src="./img/uic-logo.svg" alt="">
+                </div>
+                <div>
+                    <img class="px-[50px] hover:bg-[#FFFFFF33] duration-200 py-[50px] rounded-[20px]" src="./img/uic-logo.svg" alt="">
+                </div>
+            </div>
+        </section>
+    </div>
+
+</body>
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+    tailwind.config = {
+        theme: {
+            extend: {
+                container: {
+                    container: true,
+                    padding: "1rem",
+                },
+                fontFamily: {
+                    "poppins": "Poppins",
+                },
+                colors: {
+                    "main-black": "#190A35",
+                }
+            }
+        }
+    }
+</script>
+
+</html>
